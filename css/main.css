@@ -30,12 +30,12 @@ h1 h2 h3 h4 h5{
 
 /* START HERO SECTION AREA */
 .hero_section{
-	background: url(../img/header_background.jpg) no-repeat center center fixed;
+	background: url(../img/hero_image3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 40px 0 0px 0;
+  padding: 50px 0;
 
 }
 
@@ -52,9 +52,8 @@ h1 h2 h3 h4 h5{
 
 .home_menu_area ul li {
 	list-style: none;
-	display: inline-block;
-	padding: 0 20px 0 0;
-	text-align: right;
+	display: block;
+	padding: 0 25px 0 0;
 }
 
 
@@ -65,36 +64,21 @@ h1 h2 h3 h4 h5{
 }
 
 .home_menu_area ul li a:hover {
-	color: #111111;
+	color: #fff;
 	text-decoration: none;
-	/* background: #0C7CBA; */
+	background: #0C7CBA;
 	transition: 0.5s;
 }
 
-.copyriht_section_home {
-	color: #fff;
-	margin: 120px 0 0 0;
-}
-
-
-.copyriht_section_home p {
-	margin-top: 15px;
-}
 
 .hero_text_area {
 	padding: 50px  0;
 }
 
 .hero_text_area img {
-	width: 45%;
-	padding: 15px 0;
+	width: 70%;
+	padding: 20px 0;
 }
-
-.hero_text_area h2 {
-	color: #fff;
-	font-size: 25px;
-}
-
 
 .hero_text_area p {
 	line-height: 28px;
@@ -103,20 +87,13 @@ h1 h2 h3 h4 h5{
 
 .read_more {
 	background: #fff;
-	padding: 12px 15px;
-	margin: 10px 15px 0 0;
+	padding: 13px 15px;
+	margin: 12px 0;
 	display: inline-block;
 	color: #424341;
 	text-transform: uppercase;
 	font-size: 14px;
 }
-
-
-.button_color_option{
-	background: #F57304;
-	color: #fff;
-}
-
 
 .read_more_blue {
 	background: #0C7CBA;
@@ -145,10 +122,9 @@ h1 h2 h3 h4 h5{
 }
 
 
-.social_menu {
+.social_menu{
 	text-align: right;
 	float: none;
-	margin: 120px 0 0 0;
 }
 
 .social_menu ul li {
